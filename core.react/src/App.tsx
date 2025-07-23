@@ -5,7 +5,7 @@ import {createRoot} from "react-dom/client";
 import {APIProvider, Map, AdvancedMarker, MapCameraChangedEvent, useMap, Pin} from '@vis.gl/react-google-maps';
 import {MarkerClusterer} from '@googlemaps/markerclusterer';
 import type {Marker} from '@googlemaps/markerclusterer';
-import {Circle} from './components/circle'
+import {Circle} from './assets/circle'
 import './App.css'
 
 type Poi ={ key: string, location: google.maps.LatLngLiteral }
